@@ -12,3 +12,6 @@ def despedidaPara(nombre):
 
 def chaomundo(nombre):
     print("Adios mundo cruel! Att. " + str(nombre))
+
+def funcionespecial():
+    print("Esta es mi funcion especial de navidad")
