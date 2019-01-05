@@ -12,6 +12,7 @@
   xv=yv=0;
   trail=[];
   tail = 5;
+
   function game() {
     px+=xv;
     py+=yv;
@@ -27,6 +28,7 @@
     if (py>tc-1) {
       py = 0;
     }
+
     ctx.fillStyle="black";
     ctx.fillRect(0,0,canv.width,canv.height);
 
@@ -53,7 +55,21 @@
   }
 
   function keyPush(evt) {
-    switch (evt.keyCode) {
+  	switch (evt.keyCode) {
+      case 37:
+      	if (xv == 0) {xv=-1; yv=0;}
+        break;
+      case 38:
+      	if (yv == 0) {xv=0; yv=-1;}
+        break;
+      case 39:
+      	if (xv == 0) {xv=1; yv=0;}
+        break;
+      case 40:
+      	if (yv == 0) {xv=0; yv=1;}
+        break;
+    }
+    /*switch (evt.keyCode) {
       case 37:
         xv=-1; yv=0;
         break;
@@ -66,6 +82,6 @@
       case 40:
         xv=0; yv=1;
         break;
-    }
+    }*/
   }
 </script>
