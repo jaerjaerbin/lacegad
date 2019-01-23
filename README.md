@@ -10,4 +10,4 @@ Los cambios se harán a través de pull requests, un colaborador podra revisar y
 
 ## Intereses
 
-El interés del repo explorar al máximo TODO EL FLUJO DE TRABAJO DE UN PROYECTO.
+El interés del repositorio es explorar al máximo todo el flujo de trabajo de un proyecto colaborativo.
