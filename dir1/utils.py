@@ -15,3 +15,9 @@ def chaomundo(nombre):
 
 def funcionespecial():
     print("Esta es mi funcion especial de navidad")
+
+def superMultiplicador(num1, num2):
+	result = num1 * num2
+	print("La multiplicación de " + str(num1) + " * " + str(num2) + " = " + str(result))
+	return result;
+	
